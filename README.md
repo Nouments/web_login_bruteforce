@@ -13,14 +13,14 @@ I want every to contribute as possible to this script and advice me to mprove an
 clone the repository
 
 ```bash
-  git clone https://github.com/Nouments/we_login_bruteforce.git
-  cd we_login_bruteforce
+  git clone https://github.com/Nouments/web_login_bruteforce.git
+  cd web_login_bruteforce
 ```
 Give permission to the binary and run the script
 
 ```bash
   chmod +x gobrute
-  ./gobrute -u username.txt -p password.txt -url https://examplecom
+  ./gobrute -u username.txt -p password.txt -url https://example.com
 ```
     
 At the end , it will give you the credentials taht allow you to log on the web 
