@@ -52,7 +52,7 @@ func main() {
 	// Parse command line arguments
 	usernameFile := flag.String("u", "username.txt", "File containing usernames")
 	passwordFile := flag.String("p", "password.txt", "File containing passwords")
-	url := flag.String("url", "https://0a4d005c041be5ac80f2c60a00f000ac.web-security-academy.net/login/", "URL of the login form")
+	url := flag.String("url", "https://exemple.ccom/login/", "URL of the login form")
 	flag.Parse()
 
 	usernames, passwords, err := readCredentials(*usernameFile, *passwordFile)
